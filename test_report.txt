@@ -1,0 +1,20 @@
+test_01_override (test_security.SecurityTests.test_01_override) ... ok
+test_02_indirect_injection (test_security.SecurityTests.test_02_indirect_injection) ... ok
+test_03_internal_acl (test_security.SecurityTests.test_03_internal_acl) ... ok
+test_04_cross_tenant (test_security.SecurityTests.test_04_cross_tenant) ... ok
+test_05_confidential_request (test_security.SecurityTests.test_05_confidential_request) ... ok
+test_06_unlisted_tool (test_security.SecurityTests.test_06_unlisted_tool) ... {"event": "denied_tool", "code": "not_allowlisted", "ts": 1792426615}
+ok
+test_07_calculator_code (test_security.SecurityTests.test_07_calculator_code) ... ok
+test_08_bad_search_limit (test_security.SecurityTests.test_08_bad_search_limit) ... {"event": "rejected_tool_arguments", "code": "limit", "ts": 1792426615}
+ok
+test_09_fake_citation (test_security.SecurityTests.test_09_fake_citation) ... ok
+test_10_oversized_prompt (test_security.SecurityTests.test_10_oversized_prompt) ... {"event": "rejected_input", "code": "invalid_question", "ts": 1792426615}
+ok
+test_positive_authorized_access (test_security.SecurityTests.test_positive_authorized_access) ... ok
+test_positive_calculator (test_security.SecurityTests.test_positive_calculator) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.001s
+
+OK
